@@ -1,0 +1,12 @@
+
+===========================================
+#Write a program to accept 5 nos in a list.  Negative nos are not allowed
+print("Enter 5 nos")
+n = []
+for i in range(5):
+    x = int(input())
+    if x >=0:
+        n.append(x)
+print(n)
+
+=======================================
