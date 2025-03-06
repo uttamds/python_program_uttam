@@ -19,3 +19,9 @@ school_records['year_started'] = '2020'
 print(school_records)
 
 =========================================
+#strip function to remove spaces
+a = "    pooja                            "
+print(a.strip(), end="-")
+print("uttam", end="-")
+print("India is my country")
+============================================
