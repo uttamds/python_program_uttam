@@ -25,3 +25,19 @@ print(a.strip(), end="-")
 print("uttam", end="-")
 print("India is my country")
 ============================================
+#check if middle char is a 't'
+text=""
+print("Enter the text")
+text=input()
+print("The text you entered is:",text)
+print("The length of the text is:",len(text))
+if len(text) % 2 != 0:
+    print("The length of the text is odd")
+    if (text[int(len(text)/2)]) == 't':
+        print("The word has a t in middle")
+    else:
+        print("The word does not have a t in middle")
+else:
+    print("The length of the text is even")
+
+=====================================
