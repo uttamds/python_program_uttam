@@ -41,3 +41,10 @@ else:
     print("The length of the text is even")
 
 =====================================
+#check if the text has starting and ending letter same
+text = "tarrot"
+if text[0] == text[-1]:
+    print("yes")
+else:
+    print("no")
+
