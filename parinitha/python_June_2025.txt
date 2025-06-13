@@ -29,3 +29,16 @@ salary = float(input())
 print(f"Hello {empname} your code is {empcode} and salary is {salary}")
 
 =======================================
+age  = 0
+age = int(input("enter your age"))
+
+if age > 5:
+    print("India")
+    exit()
+if age > 15:
+    print("China")
+if age > 25:
+    print("USA")
+if age > 2:
+    print("Russia")
+=========================================
