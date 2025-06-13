@@ -8,3 +8,13 @@ print(area)
 
 
 =============================
+empname = ""
+empcode = ""
+salary = 0.0
+print("Enter empname, emp code, salary")
+empname = input()
+empcode = input()
+salary = float(input())
+print("Hello {empname} your code is {empcode} and salary is {salary}")
+
+=======================================
