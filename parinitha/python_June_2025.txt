@@ -6,6 +6,17 @@ area = 3.142*circle_radius*circle_radius
 area = int(area)
 print(area)
 
+================================
+
+import math
+
+circle_radius = 0           
+area = 0
+print("Enter radius")
+circle_radius = float(input())
+area = math.pi* math.pow(circle_radius,2)  
+#area = int(area)
+print(f"the area of circle is {area:.2f}")
 
 =============================
 empname = ""
