@@ -1,0 +1,10 @@
+circle_radius=0
+area = 0
+print("Enter radius")
+circle_radius = int(input())
+area = 3.142*circle_radius*circle_radius
+area = int(area)
+print(area)
+
+
+=============================
