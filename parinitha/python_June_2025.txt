@@ -42,3 +42,11 @@ if age > 25:
 if age > 2:
     print("Russia")
 =========================================
+
+#range()  for keyword
+d = []
+for i in range(10):
+    print("Enter the number " , i+1)
+    d.append(input())
+    
+print(d)
